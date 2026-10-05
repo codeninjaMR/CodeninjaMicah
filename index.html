@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Progress</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="scene" aria-label="Hello progress animation">
+      <div class="title-wrap">
+        <h1 id="helloText" class="hello-title" aria-label="HELLO">HELLO</h1>
+      </div>
+
+      <div class="progress-wrap" aria-label="Progress bar">
+        <div class="progress-bar">
+          <span id="progressFill" class="progress-fill"></span>
+        </div>
+      </div>
+
+      <button id="escapeButton" class="escape-button" type="button" aria-label="Escape button">CLICK ME</button>
+
+      <audio id="screamAudio" preload="auto">
+        <source src="./dragon-studio-woman-screaming-sfx-screaming-sound-effect-320169.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="yayAudio" preload="auto">
+        <source src="./freesound_community-yay-6326.mp3" type="audio/mpeg" />
+      </audio>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
